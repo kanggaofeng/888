@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+.coupon {
+    width: 100%;
+    height: 4.24rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.aa {
+    flex: 1;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.coupon .coupon-left {
+    width: 49%;
+    height: 4.16rem;
+    float: left;
+}
+
+.coupon .coupon-left img {
+    width: 100%;
+    height: 4.18rem;
+}
+
+.coupon .coupon-right {
+    width: 49%;
+    height: 4.16rem;
+    margin-left: 1%;
+    float: left;
+}
+
+.coupon .coupon-right .coupon-right-top img {
+    width: 3.7rem;
+    height: 2rem;
+}
+
+.coupon .coupon-right .coupon-right-bottom {
+    margin-top: .08rem;
+}
+
+.coupon .coupon-right .coupon-right-bottom img {
+    width: 3.7rem;
+    height: 2.1rem;
+}
+
+.cen3 {
+    margin-top: .1rem;
+}
+
+#tip {
+    line-height: 0.8rem;
+    text-align: center;
+    color: #cccccc;
+    font-size: .22rem;
+}
+
+.cen3 img {
+    width: 100%;
+}
+
+.cen2 {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.cen2 .left {
+    flex-grow: 3;
+    text-align: center;
+    font-size: .2rem;
+    color: #ff730b;
+    font-weight: bold;
+    padding: .1rem;
+}
+
+.cen2 {
+    background: white;
+    width: 100%;
+    margin-top: .1rem;
+    padding: .1rem;
+    padding-right: .4rem;
+}
+
+.cen2 .right {
+    flex-grow: 6;
+    border: 1px solid #eeeeee;
+    border-radius: .12rem;
+    padding: .1rem;
+    color: #666666;
+}
+
+.cen2 .right p {
+    line-height: .3rem;
+}
+
+.banner {
+    width: 100%;
+    height: 2.5rem;
+    ;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    font-size: .23rem;
+    display: flex;
+    height: .6rem;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eeeeee;
+    padding: .3rem 0;
+}
+
+.header {
+    background: white;
+}
+
+.header>div {
+    flex: 1;
+}
+
+.header div:nth-child(1) {
+    color: red;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: .1rem .2rem;
+    background: #cccccc;
+    border-radius: .05rem;
+    font-size: .12rem;
+}
+
+.cen1 {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    padding: .15rem;
+}
+
+.cen1 div {
+    width: 25%;
+    margin-bottom: .05rem;
+}
+
+.cen1 div span {
+    display: block;
+    text-align: center;
+    font-size: .32rem;
+}
+
+.cen1 div :nth-child(1) {
+    width: .6rem;
+    height: .6rem;
+    line-height: .6rem;
+    border-radius: 100%;
+    background: red;
+    margin: 0 auto;
+    margin-bottom: .05rem;
+    color: white;
+}
+
+.cen1 div :nth-child(2) {
+    font-size: .23rem;
+}
